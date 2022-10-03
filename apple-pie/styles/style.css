@@ -1,0 +1,65 @@
+.imageTitle {
+    position: relative;
+    text-align: center;
+}
+#applePieImg {
+    /* width: 700px; */
+    /* height: auto; */
+    /* background-image: url('img_girl.C:\Users\oliwi\git-practice\lab1\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg') */
+    background-image: url("C:\Users\oliwi\git-practice\lab1\lab-css-recipes-clone\apple-pie\images\apple-pie.jpg");
+    background-color: #cccccc;
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* position: relative; */
+    }
+h1 {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  /* text-align: center; */
+  transform: translate(-50%, -50%);
+  color: beige;
+  font-weight: normal;
+  font-size: 80px;
+}
+.section1, .section2, .section3 {
+    margin: 20px;
+}
+body {
+    margin:50px 200px 0px 200px;
+    font-family: sans-serif;
+}
+ul, ol {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+ul {
+    list-style-type: none;
+  }
+ul li:before {
+    content: '\2014';
+    position: absolute;
+    margin-left: -20px;
+  }
+h2 {
+    padding-left: 75px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+p {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.smallImg {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-bottom: 20px;
+}
+hr {
+    width:83%;
+    margin:0 auto;
+}
